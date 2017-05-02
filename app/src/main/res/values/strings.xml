@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyNotePAD</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="fullname">Fullname</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="title">Title</string>
+    <string name="type">Type</string>
+    <string-array name="array_spinner_notes">
+        <item>Note</item>
+        <item>Task</item>
+        <item>Meeting</item>
+    </string-array>
+</resources>
