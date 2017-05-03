@@ -1,4 +1,7 @@
 package granados.mynotepad;
+
+import com.orm.dsl.Table;
+
 @Table
 public class Note {
 

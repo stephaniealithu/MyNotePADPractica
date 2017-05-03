@@ -33,7 +33,7 @@ public class NotesListActivity extends AppCompatActivity {
         startActivityForResult(new Intent(this, RegisterNotesActivity.class), REGISTER_FORM_REQUEST);
     }
 
-    // return from RegisterActivity
+    // return from RegisterNotesActivity
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
