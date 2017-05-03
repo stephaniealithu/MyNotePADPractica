@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import granados.mynotepad.R;
-import granados.mynotepad.UserBL;
+import granados.mynotepad.models.UserBL;
 import granados.mynotepad.models.User;
 
 public class LoginActivity extends AppCompatActivity {

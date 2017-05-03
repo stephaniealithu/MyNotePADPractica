@@ -13,13 +13,9 @@ import android.view.View;
 import java.util.List;
 
 import granados.mynotepad.R;
-import granados.mynotepad.UserBL;
 import granados.mynotepad.business.NoteAdapter;
 import granados.mynotepad.business.NoteRepository;
 import granados.mynotepad.models.Note;
-import granados.mynotepad.models.User;
-
-import static granados.mynotepad.R.string.email;
 
 public class NotesListActivity extends AppCompatActivity {
 

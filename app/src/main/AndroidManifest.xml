@@ -6,7 +6,7 @@
         android:name="com.orm.SugarApp"
         android:allowBackup="true"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher"
+        android:roundIcon="@drawable/notepad"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <meta-data
@@ -22,18 +22,20 @@
             android:name="DOMAIN_PACKAGE_NAME"
             android:value="granados.mynotepad" />
 
-        <activity android:name=".activities.LoginActivity">
+        <activity
+            android:name=".activities.SplashActivity"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activities.LoginActivity"></activity>
         <activity android:name=".activities.RegisterActivity" />
         <activity android:name=".activities.RegisterNotesActivity" />
-        <activity android:name=".activities.NotesListActivity">
+        <activity android:name=".activities.NotesListActivity"></activity>
 
-        </activity>
     </application>
 
 </manifest>
