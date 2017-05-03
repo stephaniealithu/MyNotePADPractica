@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -27,6 +28,15 @@ public class LoginActivity extends AppCompatActivity {
         emailInput = (EditText)findViewById(R.id.email_input);
         passwordInput = (EditText)findViewById(R.id.password_input);
         loginPanel = findViewById(R.id.login_panel);
+
+        Button registrar = (Button) findViewById(R.id.registrar);
+        registrar.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), RegisterActivity.class);
+                startActivityForResult(myIntent, 0);
+            }
+
+        });
 
         // init SharedPreferences
         sharedPreferences = this.getSharedPreferences("MySharedPreferences", Context.MODE_PRIVATE);
@@ -82,5 +92,6 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(new Intent(this, NotesListActivity.class));
         finish();
     }
+
 
 }

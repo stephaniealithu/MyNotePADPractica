@@ -71,7 +71,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/backgroundcolor"
+        android:background="@color/colorAccent"
         android:onClick="callRegister"
         android:text="@string/register"
         android:textColor="@android:color/white" />

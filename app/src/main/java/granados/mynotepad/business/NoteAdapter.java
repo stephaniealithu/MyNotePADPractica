@@ -21,11 +21,13 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.ViewHolder> {
     private List<Note> notes;
 
     public NoteAdapter(List<Note> notes){
+
         this.notes = notes;
     }
 
 public void setNotes(List<Note> notes) {
-        this.notes = notes;
+
+    this.notes = notes;
         }
 
     @Override
