@@ -1,5 +1,7 @@
 package granados.mynotepad;
 
+import com.orm.SugarRecord;
+
 import java.util.List;
 
 public class NoteRepository {
