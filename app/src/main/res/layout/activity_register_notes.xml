@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="14dp"
-    tools:context="granados.mynotepad.RegisterNotesActivity">
+    tools:context="granados.mynotepad.activities.RegisterNotesActivity">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

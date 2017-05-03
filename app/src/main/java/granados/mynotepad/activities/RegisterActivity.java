@@ -1,7 +1,9 @@
-package granados.mynotepad;
+package granados.mynotepad.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import granados.mynotepad.R;
 
 public class RegisterActivity extends AppCompatActivity {
 

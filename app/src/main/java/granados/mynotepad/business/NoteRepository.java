@@ -1,8 +1,10 @@
-package granados.mynotepad;
+package granados.mynotepad.business;
 
 import com.orm.SugarRecord;
 
 import java.util.List;
+
+import granados.mynotepad.models.Note;
 
 public class NoteRepository {
 

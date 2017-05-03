@@ -1,4 +1,4 @@
-package granados.mynotepad;
+package granados.mynotepad.models;
 
 import com.orm.dsl.Table;
 

@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="25dp"
-    tools:context="granados.mynotepad.LoginActivity">
+    tools:context="granados.mynotepad.activities.LoginActivity">
 
 
     <ImageView

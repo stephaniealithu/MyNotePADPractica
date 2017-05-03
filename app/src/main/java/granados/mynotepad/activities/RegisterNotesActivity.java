@@ -1,4 +1,4 @@
-package granados.mynotepad;
+package granados.mynotepad.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,6 +6,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import granados.mynotepad.R;
+import granados.mynotepad.business.NoteRepository;
 
 public class RegisterNotesActivity extends AppCompatActivity {
     private EditText titleInput;
