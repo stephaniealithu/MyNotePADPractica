@@ -3,34 +3,34 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:padding="14dp"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="14dp"
     tools:context="granados.mynotepad.RegisterNotesActivity">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:textSize="20sp"
-        android:text="@string/title"/>
+        android:text="@string/title"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/title_input"
-        android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
+        android:inputType="text"
         tools:ignore="LabelFor" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:textSize="20sp"
-        android:text="@string/type"/>
+        android:text="@string/type"
+        android:textSize="20sp" />
 
     <Spinner
-        android:id="@+id/spinner_notes"
+        android:id="@+id/spinner_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -41,15 +41,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:textSize="20sp"
-        android:text="@string/description"/>
+        android:text="@string/description"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/description_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="text"
         android:layout_marginBottom="16dp"
+        android:inputType="text"
         tools:ignore="LabelFor" />
 
 

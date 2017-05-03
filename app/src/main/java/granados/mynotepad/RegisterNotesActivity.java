@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class RegisterNotesActivity extends AppCompatActivity {
     private EditText titleInput;
-    private Spinner typeSpinner;
+    private Spinner spinnerInput;
     private EditText descriptionInput;
 
 
@@ -19,13 +19,13 @@ public class RegisterNotesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register_notes);
 
         titleInput = (EditText)findViewById(R.id.title_input);
-        typeSpinner = (Spinner) findViewById(R.id.spinner_notes);
+        spinnerInput = (Spinner) findViewById(R.id.spinner_input);
         descriptionInput = (EditText)findViewById(R.id.description_input);
     }
 
     public void callRegisterNotes(View view){
         String title = titleInput.getText().toString();
-        String type = typeSpinner.getSelectedItem().toString();
+        String type = spinnerInput.getSelectedItem().toString();
         String description = descriptionInput.getText().toString();
 
         if(title.isEmpty() || type.isEmpty() || description.isEmpty()){

@@ -4,6 +4,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -25,22 +26,6 @@ public void setNotes(List<Note> notes) {
         this.notes = notes;
         }
 
-public class ViewHolder extends RecyclerView.ViewHolder{
-
-    public ImageView trash;
-    public TextView title;
-    public TextView type;
-    public TextView description;
-
-    public ViewHolder(View itemView) {
-        super(itemView);
-        trash = (ImageView) itemView.findViewById(R.id.trash);
-        title = (TextView) itemView.findViewById(R.id.title_text);
-        type = (TextView) itemView.findViewById(R.id.type_text);
-        description = (TextView) itemView.findViewById(R.id.description_text);
-    }
-}
-
     @Override
     public NoteAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_note, parent, false);
@@ -59,6 +44,22 @@ public class ViewHolder extends RecyclerView.ViewHolder{
     @Override
     public int getItemCount() {
         return this.notes.size();
+    }
+
+    public class ViewHolder extends RecyclerView.ViewHolder {
+
+        public ImageView trash;
+        public TextView title;
+        public TextView type;
+        public TextView description;
+
+        public ViewHolder(View itemView) {
+            super(itemView);
+            trash = (ImageView) itemView.findViewById(R.id.trash);
+            title = (TextView) itemView.findViewById(R.id.title_text);
+            type = (TextView) itemView.findViewById(R.id.type_text);
+            description = (TextView) itemView.findViewById(R.id.description_text);
+        }
     }
 
 }
